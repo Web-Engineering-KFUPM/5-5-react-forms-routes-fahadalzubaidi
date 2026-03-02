@@ -7,7 +7,7 @@ export default function Registration() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    {/*Form validations*/}
+    {/*Form validations*/ }
 
     // alert(`Regiteration submit: ${email}`);
   };
@@ -36,14 +36,14 @@ export default function Registration() {
           )}
         </div>
         <div className="form-row">
-           {/*password*/}
+          {/*password*/}
         </div>
 
         <fieldset className="form-row">
           {/*Radio Button for gender*/}
         </fieldset>
 
-          {/*Disable the submit button until all requirements met*/}
+        {/*Disable the submit button until all requirements met*/}
         <button type="submit" className="btn">Register</button>
       </form>
 
